@@ -4,6 +4,7 @@ import { fundoClaro } from "../UI/variaveis";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 
 const Container = styled.div`
   background-color: ${fundoClaro};
@@ -26,6 +27,7 @@ export default () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </Container>
   );
